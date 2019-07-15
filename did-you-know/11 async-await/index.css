@@ -8,23 +8,7 @@ html, body {
     margin: 0;
     padding: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-}
-
-.title {
-
-}
-
-.subtitle {
-
-}
-
-.text {
-    max-width: 800px;
-}
-
-.read {
-    color: silver;
+    font-size: 14px;
 }
 
 .button {

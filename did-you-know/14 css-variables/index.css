@@ -8,7 +8,7 @@ html, body {
     margin: 0;
     padding: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .button {
@@ -17,11 +17,24 @@ html, body {
     background-color: #527da3;
     font-size: 16px;
     padding: 12px 24px 12px 24px;
-    border-radius: 4px;
+    border-radius: 8px;
     outline: 0;
 }
 
-
-#more {
-    max-width: 600px;
+p {
+    --paragraph-width: 800px;
+    text-align: justify;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: var(--paragraph-background);
+    font-family: var(--paragraph-font);
 }
+
+p.first {
+    max-width: var(--paragraph-width);
+}
+
+p.second {
+    max-width: calc(var(--paragraph-width) / 2);
+}
+
