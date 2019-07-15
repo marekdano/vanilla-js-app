@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ES Modules in a browser</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Seemingly, mot much of a difference ... -->
+    <script type="module">
+        const id = '123'
+    </script>
+
+    <!-- But we have code isolation -->
+    <script type="module">
+        console.log(id)
+    </script>
+
+    <!-- And strict mode by default -->
+    <script type="module">
+        true.name = 'TRUE'
+    </script>
+
+</head>
+
+<body>
+    <h1>ES Modules</h1>
+</body>
+
+</html>

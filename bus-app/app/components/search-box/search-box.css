@@ -1,0 +1,43 @@
+/* Header section */
+.search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.search-box label {
+  flex: 0;
+  height: 40px;
+  padding: 8px;
+  color: var(--text-color);
+  font-size: var(--text-size-large);
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.search-box input[name='stopNumber'] {
+  flex: 1;
+  min-width: 300px;
+  font-size: 18px;
+  height: 40px;
+  padding: 8px;
+  color: var(--input-stop-color);
+  border: none;
+  border-bottom: solid var(--button-find-background) 2px;
+  outline: 0;
+}
+
+.search-box button[name='find'] {
+  flex: 1;
+  height: 38px;
+  margin-left: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  color: var(--button-find-color);
+  background-color: var(--button-find-background);
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+

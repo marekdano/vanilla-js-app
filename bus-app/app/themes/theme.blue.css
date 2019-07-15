@@ -1,0 +1,14 @@
+.application {
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --text-color: #757575;
+  --error-color: #a72727;
+  --text-size: 16px;
+  --text-size-large: 18px;
+
+  --button-find-color: var(--text-color);
+  --button-find-background: #b0d9fa;
+
+  --input-stop-color: var(--text-color);
+  --input-stop-background: #eef1f7;
+}

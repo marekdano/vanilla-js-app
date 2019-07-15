@@ -1,0 +1,14 @@
+.application {
+  --font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  --text-color: #757575;
+  --error-color: #a72727;
+  --text-size: 16px;
+  --text-size-large: 18px;
+
+  --button-find-color: var(--text-color);
+  --button-find-background: #d4ebbf;
+
+  --input-stop-color: var(--text-color);
+  --input-stop-background: #f2f7ee;
+}

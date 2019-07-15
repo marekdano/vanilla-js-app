@@ -1,0 +1,15 @@
+footer {
+  padding: 4px;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+footer label {
+  flex: 1;
+}
+
+footer ba-time {
+  flex: 0;
+}

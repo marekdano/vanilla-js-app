@@ -1,0 +1,46 @@
+/* Search results section */
+.bus-departures {
+  padding: 8px;
+}
+
+.bus-departures header label.stop {
+  margin-top: 8px;
+  display: block;
+}
+
+.bus-departures header label.not-found {
+  margin-top: 8px;
+  display: block;
+  color: var(--error-color);
+}
+
+.bus-departures header label.routes {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.bus-departures label.departures {
+  display: block;
+  width: 250px;
+  border-bottom: dotted silver 1px;
+}
+
+.bus-departures .departure {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-bottom: dotted silver 1px;
+  width: 250px;
+}
+
+.bus-departures .departure .route {
+  flex: 1;
+}
+
+.bus-departures .departure .minutes {
+  flex: 0;
+  width: 70px;
+  text-align: right;
+}

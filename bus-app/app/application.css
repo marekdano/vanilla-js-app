@@ -1,0 +1,26 @@
+/* Application */
+.application {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 16px;
+  font-family: var(--font-family);
+  font-size: var(--text-size);
+  color: var(--text-color);
+}
+
+/* Components */
+ba-search-box {
+  flex: 0;
+}
+
+ba-bus-departures {
+  flex: 1;
+  overflow: auto;
+}
+
+ba-footer {
+  flex: 0;
+}
