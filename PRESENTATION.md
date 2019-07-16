@@ -1,3 +1,7 @@
+# Code for this presentation
+
+[http://bit.ly/vanilla-js-app]()
+
 # Intro
 [Slide 1]()
 This short presentation is about the superpowers which come with vanilla JavaScript and HTML5.
