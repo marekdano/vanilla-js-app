@@ -9,7 +9,7 @@ Fun article from 2016, still actual ;-)
 [Slide 1]()
 This short presentation is about the superpowers which come with vanilla JavaScript and HTML5.
 
-During my days in the office I struggle a lot with our development practices and methodologies. We're spending substantial amount of time on configurations, ceremony, settings things up. I'd rather write code.
+My days in the office are a constant struggle with the established development practices and methodologies. I spend spending substantial amount of time on configurations, ceremony, settings things up. I'd rather write code.
 
 [Slide 2]()
 A look at the amount of config files in an average application is revealing.
@@ -70,7 +70,7 @@ Let's see what we have available these days. Walk through a dozen of samples dem
 * 05 String Literals - simple templating in pure JavaScript
 * 06 Classes - OOP in JavaScript, with inheritance and polymorphism
 * 07 Static Classes - semantically clean singletons
-* 08 Arrow Functions - concise functions with lexical `this` 
+* 08 Arrow Functions - concise functions with lexical `this`
 * 09 Spread Operator - the most versatile operator in whole of JS
 * 10 Destructuring - just as good as spread operator
 * 11 Async/Await - simpler syntax for asynchronous code
@@ -85,7 +85,7 @@ In this walkthrough we will look at a sample app, where all this goodness has be
 * Pure JavaScript/HTML5 application
 * Doing something useful
 * No frameworks, build processes, transpiling etc.
-* All of the goodies presented during `Did You Know` session 
+* All of the goodies presented during `Did You Know` session
 put here into productive use
 * Clean, well structure and future-proof code, which easily renders itself for introduction of frameworks, should it become necessary
 
