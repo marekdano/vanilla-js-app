@@ -1,7 +1,7 @@
-import formatTime from './format-time.js'
+import timeFormat from './time-format.js';
 
 export function time () {
-    return formatTime(new Date().toTimeString())
+    return timeFormat(new Date().toTimeString())
 }
 
 console.log('Hello from time.js')

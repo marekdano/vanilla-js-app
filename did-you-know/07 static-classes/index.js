@@ -1,3 +1,12 @@
+class Application {
+    static main () {
+        console.log('API is ready', API.endpoint)
+        console.log('API/Products GET', API.getProducts())
+    }
+}
+
+window.addEventListener('load', () => Application.main())
+
 class API {
     static get endpoint() {
         return 'http://localhost/api/'
@@ -15,12 +24,3 @@ class API {
 }
 
 
-class Application {
-    static main () {
-        console.log('API is ready', API.endpoint)
-        console.log('API/Products GET', API.getProducts())
-    }
-}
-
-
-window.addEventListener('load', () => Application.main())

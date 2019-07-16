@@ -1,33 +1,36 @@
 class Printer {
-    constructor () {
-        this.count = 0
+    constructor() {
+        this.counter = 0
     }
 
-    printOld (items) {
-        items.forEach(function(item) {
-            // Classic JavaScript is confused, what `this` means
-            this.count++
-            console.log(this)
+    oldCount (items) {
+        items.forEach(function (item) {
+            if (item) {
+                // Are you sure, Tomasz?
+                this.counter++
+                console.log(this)
+            }
         })
     }
 
-    printNew (items) {
+    count (items) {
         items.forEach(item => {
-            // Here `this` means natural `this`, which is the surrounding class
-            this.count++
-            console.log(this)
+            if (item) {
+                this.counter++
+                console.log(this)
+            }
         })
     }
 }
 
 const printer = new Printer()
-printer.printNew([1, 2, 3])
-// printer.printOld([1, 2, 3])
+printer.count([1, undefined, 2, 3])
+// printer.oldCount([1, undefined, 2, 3])
 
 
 // YOU CAN USE ARROW COMBINED WITH CONST
 // TO PROTECT YOUR FUNCTIONS FROM BEING OVERWRITTEN
-function abc () {
+function abc() {
     console.log('This is function abc()')
 }
 
