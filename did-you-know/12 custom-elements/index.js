@@ -1,5 +1,6 @@
 export class Header extends HTMLElement {
-  // Custom property, bound to HTML attribute so it can be set from markup
+  // Custom property, bound to HTML attribute 
+  // so it can be set from markup
   get text () {
     return this.getAttribute('text')
   }
@@ -8,7 +9,8 @@ export class Header extends HTMLElement {
     this.setAttribute('text', value)
   }
 
-  // React to changes to these attributes by calling `attributeChangedCallback`
+  // React to changes to these attributes 
+  // by calling `attributeChangedCallback`
   get observedAttributes() {
     return ['text'];
   }

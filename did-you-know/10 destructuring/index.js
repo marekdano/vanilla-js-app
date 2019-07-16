@@ -71,8 +71,8 @@ for (const { id, status } of patients) {
 
 
 // Now it's clear how it works with modules
-// Module is an object, exports are its properties
-// and with destructuring we ask for some of them
+// Module is too an object, exports are its properties
+// and with destructuring we simply ask for some of them
 import { sum, div } from './module.js'
 console.log('sum', sum (100, 200))
 console.log('div', div(100, 200))
