@@ -32,22 +32,22 @@ I rewrote this applet using Vanilla JS (tm). It did the same, it looked the same
 
 ## How did the frameworks come about
 [Slide 5]()
-Around 2010 the benefits of web applications became apparent. With growing access to broadband and mobile internet, IT specialists have quickly noticed that web browser is a truly great runtime platform. Why?
+Around 2010 the benefits of web applications became apparent. With growing access to broadband and mobile internet, IT pros have noticed that web browser has a great potential as runtime platform for all kinds of applications. Why?
 
 * easy deployment with one server to upgrade
 * no more outdated versions around
 * true multi-platform software - same code on Windows, Mac, Linux, mobile etc.
 
-So they said let'd do it. What they forgot to notice, is how bad the platform and the language was at this time. We're talking of ES5, which only just has gottten strict mode, and HTML5 which was still only available as working draft, with barely any features available in browsers.
+So they said let'd do it. What they forgot to notice, is how bad the platform and the language was at the time. We're talking of ES5 which only just has gottten strict mode, and HTML5 which was still only a working draft, with barely any features available in browsers.
 
-Frameworks and build tools came to the rescue - Knockout, Ember, AngularJS made big news in 2010, React joined the crowd 3 years later. We've gotten grunt, gulp and then webpack. What did they all bring?
+Frameworks and build tools came to the rescue - Knockout, Ember, then AngularJS made big news from 2010 on. React joined the crowd 3 years later. We've gotten grunt, gulp and then webpack. So, what did the Romans ever done for us? They gave us:
 
-* modules, no more naming conflicts
-* components, development in small logical chunks of HTML, JS and CSS
-* bundling, as modular code is a fragmented code, with bad impact on load performance
-* transpiling, introducing modern language features on a browser which doesn't understand it yet
-* polyfills, modern HTML5 features on a browser which doesn't have them yet
-
+* Modules, no more naming conflicts
+* Components, development in small logical chunks of HTML, JS and CSS
+* Bundling, as modular code is a fragmented code, with bad impact on load performance
+* Transpiling, introducing modern language features on a browser which doesn't understand it yet
+* Polyfills, modern HTML5 features on a browser which doesn't have them yet
+* and many more
 
 ## Times have changed though
 [Slide 6]()
@@ -62,6 +62,7 @@ History made a loop and we're all of the sudden able to write rich applications 
 
 
 # Did you know?
+[Slide 7]()
 Let's see what we have available these days. Walk through a dozen of samples demonstrating the power of contemporary JavaScript.
 
 * 01 DOM Manipulations - JQuery-like API for accessing DOM elements
@@ -81,6 +82,7 @@ Let's see what we have available these days. Walk through a dozen of samples dem
 
 
 # Sample application
+[Slide 8]()
 In this walkthrough we will look at a sample app, where all this goodness has been applied:
 
 * Pure JavaScript/HTML5 application
@@ -93,9 +95,8 @@ put here into productive use
 
 
 # Conclusions
-Simplicity, structure and elegance of code pays off in the short run and in the long run.
-
-Frameworks die off much quicker than programming languages, paradigms and patterns. Therefore it's a much better investment to learn the language, study and learn to apply various programming concepts and design patterns, rather than chasing frameworks. With this skillset, you'll learn any framework in no time, whenever it's needed.
+[Slide 9]()
+Frameworks die off much quicker than programming languages, paradigms and patterns. Therefore it's a much better investment to learn the language, study and learn to apply various programming concepts and design patterns, rather than chasing frameworks. With these, you'll learn any framework in no time, whenever it's needed.
 
 It's a skillset that never expires, regardless of the language or framework you currently use. I wish that they asked me this during job interviews, and not whether I know `React v.0.1472` and it must be this very version otherwise no job!
 
