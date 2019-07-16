@@ -9,25 +9,26 @@ Fun article from 2016, still actual ;-)
 [Slide 1]()
 This short presentation is about the superpowers which come with vanilla JavaScript and HTML5.
 
-My days in the office are a constant struggle with the established development practices and methodologies. I spend spending substantial amount of time on configurations, ceremony, settings things up. I'd rather write code.
+My days in the office are a constant struggle with the established development practices and methodologies. I spend spending substantial amount of time on configurations, ceremony, settings things up, copying and pasting someone else's configuration files because mine just won't work. I'd rather write code.
 
 [Slide 2]()
+Let's have a look at `Hello World` application, generated with Angular CLI.
 A look at the amount of config files in an average application is revealing.
-Look at ./node_modules and tell me, how many of these you recognize and can tell what they do.
+I wish I could tell what each one of those libraries in `./node_modules` does and why it is needed.
 
 [Slide 2]()
 It seems that our coding practices are primarily driven by needs of enterprise applications, while not all our applications or websites are enterprise applications.
 
-> I also feel that by blindly jumping into frameworks and build tools I think less, I learn less, and in the end I understand less.
+> I feel that by blindly jumping into frameworks and build tools I think less, I learn less, and in the end I understand less.
 
-I'm using frameworks and build tools daily. But I'm also feeling that maybe the additional complexity which they inevitably bring in, is not always justified?
+I'm using frameworks and build tools daily. But I feel that maybe the additional complexity which they inevitably bring into the picture, is not always justified?
 
 
 ## MC Checkout Applet
 [Slide 4]()
-A revealing moment for me was a little project while at MasterCard. I was asked to refactor a checkout applet, a small wizard of 3 pages. It was built with variety of tools and frameworks. Redistributable bundle was 1.5 MB gzipped. Back in 2003 I was working on patient registration system for large hospital. Major application, and it was 10 MB in total.
+A revealing experience was a little project while at MasterCard. I was asked to refactor a checkout applet, a small wizard of 3 pages. It was built with variety of tools and frameworks. Redistributable bundle was 1.5 MB gzipped. Back in 2003 I was working on patient registration system for hospitals in the Netherlands. Major application, and it was 10 MB in total.
 
-I rewrote this applet using Vanilla JS (tm). It did the same, it looked the same. It was nicely componentized, employed a little MVC controller architecture for good separation of concerns. The redistributable was 25kB gzipped. It loaded in a snap
+I rewrote this applet using Vanilla JS (tm). It did the same, it looked the same. It was componentized, it used a simple MVC architecture for good separation of concerns. The redistributable was 25kB gzipped. It loaded in a snap.
 
 ## How did the frameworks come about
 [Slide 5]()
