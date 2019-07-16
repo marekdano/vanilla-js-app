@@ -1,5 +1,4 @@
 # Code for this presentation
-
 [http://bit.ly/vanilla-js-app]()
 
 Fun article from 2016, still actual ;-)
@@ -63,6 +62,21 @@ History made a loop and we're all of the sudden able to write rich applications 
 # Did you know?
 Let's see what we have available these days. Walk through a dozen of samples demonstrating the power of contemporary JavaScript.
 
+* 01 DOM Manipulations - JQuery-like API for accessing DOM elements
+* 02 Modules - first-class code modules in JavaScript
+* 03 Modules Tree - predictable and hierarchic loading of modules
+* 04 Dynamic Modules - loading of code modules on request
+* 05 String Literals - simple templating in pure JavaScript
+* 06 Classes - OOP in JavaScript, with inheritance and polymorphism
+* 07 Static Classes - semantically clean singletons
+* 08 Arrow Functions - concise functions with lexical `this` 
+* 09 Spread Operator - the most versatile operator in whole of JS
+* 10 Destructuring - just as good as spread operator
+* 11 Async/Await - simpler syntax for asynchronous code
+* 12 Custom Elements - custom HTML components without Angular
+* 13 Shadow DOM - sandboxed components, no more leaky CSS
+* CSS Variables - a cherry on the top, a serious contender to SASS
+
 
 # Sample application
 In this walkthrough we will look at a sample app, where all this goodness has been applied:
@@ -70,14 +84,16 @@ In this walkthrough we will look at a sample app, where all this goodness has be
 * Pure JavaScript/HTML5 application
 * Doing something useful
 * No frameworks, build processes, transpiling etc.
-* Using modern language features for clean, well structure and future-proof code, which easily renders itself for introduction of frameworks if it becomes necessary
+* All of the goodies presented during `Did You Know` session 
+put here into productive use
+* Clean, well structure and future-proof code, which easily renders itself for introduction of frameworks, should it become necessary
 
 
 
 # Conclusion
 Simplicity, structure and elegance of code pays off in the short run and in the long run.
 
-Frameworks die off much quicker than programming languages, paradigms and patterns. Therefore it's a much better investment to learn the language, study and learn to apply various programming concepts and design patterns, rather than chasing frameworks. With this skillset, you'll learn the framework in no time, when it's needed.
+Frameworks die off much quicker than programming languages, paradigms and patterns. Therefore it's a much better investment to learn the language, study and learn to apply various programming concepts and design patterns, rather than chasing frameworks. With this skillset, you'll learn any framework in no time, whenever it's needed.
 
-It's a skillset that never expires, regardless of the language or framework you currently use. I wish that recruiters were asking me about this, and not whether I know `React v.0.1472` and it must be this very version otherwise no job!
+It's a skillset that never expires, regardless of the language or framework you currently use. I wish that they asked me this during job interviews, and not whether I know `React v.0.1472` and it must be this very version otherwise no job!
 

@@ -25,7 +25,11 @@
   color: var(--input-stop-color);
   border: none;
   border-bottom: solid var(--button-find-background) 2px;
-  outline: 0;
+  outline: none;
+}
+
+.search-box input[name='stopNumber']:focus {
+  border-bottom: solid var(--button-find-background-dark) 2px;
 }
 
 .search-box button[name='find'] {
@@ -39,5 +43,10 @@
   background-color: var(--button-find-background);
   border-radius: 4px;
   text-transform: uppercase;
+  outline: none;
+}
+
+.search-box button[name='find']:hover {
+  background-color: var(--button-find-background-dark);
 }
 

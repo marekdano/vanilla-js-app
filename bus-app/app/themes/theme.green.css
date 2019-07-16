@@ -8,6 +8,7 @@
 
   --button-find-color: var(--text-color);
   --button-find-background: #d4ebbf;
+  --button-find-hover-background-dark: #93c565;
 
   --input-stop-color: var(--text-color);
   --input-stop-background: #f2f7ee;
