@@ -35,7 +35,10 @@ console.log(totalSalesAndReturns)
 
 
 // Provide defaults for undefined values.
-const { name: customerName, address: customerAddress = 'Unknown' } = customer
+const { 
+    name: customerName, 
+    address: customerAddress = 'Unknown' 
+} = customer
 console.log(`Customer ${customerName} address: ${customerAddress}`)
 
 

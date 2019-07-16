@@ -12,6 +12,7 @@ const customer = {
 console.log('company', company)
 console.log('customer', customer)
 
+/*
 
 // Combine objects --------------------
 const person = { firstName: 'Jimi', lastName: 'Hendrix' }
@@ -20,7 +21,6 @@ const address = { street: 'Moore St', houseNumber: 122 }
 const contact = { ...person, ...phone, ...address }
 
 console.log('contact', contact)
-
 
 
 // Copy arrays ------------------
@@ -67,3 +67,5 @@ const elements = [...document.querySelectorAll('h1')]
 for (const element of elements) {
     console.log('Found <h1> element', element)
 }
+
+*/
