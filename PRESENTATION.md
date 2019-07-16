@@ -2,6 +2,9 @@
 
 [http://bit.ly/vanilla-js-app]()
 
+Fun article from 2016, still actual ;-)
+[http://bit.ly/learn-js-in-2016]()
+
 # Intro
 [Slide 1]()
 This short presentation is about the superpowers which come with vanilla JavaScript and HTML5.
