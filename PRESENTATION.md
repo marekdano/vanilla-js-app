@@ -4,6 +4,7 @@
 Fun article from 2016, still actual ;-)
 [http://bit.ly/learn-js-in-2016]()
 
+
 # Intro
 [Slide 1]()
 This short presentation is about the superpowers which come with vanilla JavaScript and HTML5.
@@ -90,7 +91,7 @@ put here into productive use
 
 
 
-# Conclusion
+# Conclusions
 Simplicity, structure and elegance of code pays off in the short run and in the long run.
 
 Frameworks die off much quicker than programming languages, paradigms and patterns. Therefore it's a much better investment to learn the language, study and learn to apply various programming concepts and design patterns, rather than chasing frameworks. With this skillset, you'll learn any framework in no time, whenever it's needed.
