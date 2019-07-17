@@ -16,33 +16,20 @@ export class Actions {
     State.clear()
     Components.BusDepartures.render()
 
-    await this.getStopInformation(id)
-
-    if (State.stop.found) {
-      await this.getDepartures(id)
-    } else {
-      Components.BusDepartures.render()
-    }
+    await this.getDepartures(id)
+    Components.BusDepartures.render()
   }
 
   /**
-   * Retrieves stop information
-   */
-  static async getStopInformation (id) {
-    if (!id) return
-    console.log('Actions > Get Stop', id)
-    State.searchExecuted = true
-    State.stop = await new API().getStop(id)
-  }
-
-  /**
-   * Fetches departures for the currently selected stop
+   * Fetches stop details and current departures
    */
   static async getDepartures (id) {
-    if (!id) return
     console.log('Actions > Get Departures, Stop ', id)
-    State.departures = await new API().getDepartures(id)
-    await Components.BusDepartures.render()
+    State.searchExecuted = true
+    State.stop = await new API().getStop(id)
+    if (State.stop.found) {
+      State.departures = await new API().getDepartures(id)
+    }
   }
 
   /**
