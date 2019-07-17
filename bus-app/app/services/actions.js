@@ -37,10 +37,11 @@ export class Actions {
  * private and not accessible from outside this module.
  */
 async function getDepartures (id) {
+  const api = new API()
   State.searchExecuted = true
-  State.stop = await new API().getStop(id)
+  State.stop = await api.getStop(id)
   if (State.stop.found) {
-    State.departures = await new API().getDepartures(id)
+    State.departures = await api.getDepartures(id)
   }
 }
 
