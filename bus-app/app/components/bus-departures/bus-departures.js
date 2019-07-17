@@ -68,10 +68,11 @@ class BusDepartures extends StyledComponent {
 
   departureHtml (departure) {
     const { route, minutes } = departure
+    const when = minutes === 'Due' ? 'Due' : `${minutes}m`
     return `
       <article class="departure">
         <div class="route">${route}</div>
-        <div class="minutes">${minutes}m</div>
+        <div class="minutes">${when}</div>
       </article>
     `
   }
