@@ -16,20 +16,8 @@ export class Actions {
     State.clear()
     Components.BusDepartures.render()
 
-    await this.getDepartures(id)
+    await getDepartures(id)
     Components.BusDepartures.render()
-  }
-
-  /**
-   * Fetches stop details and current departures
-   */
-  static async getDepartures (id) {
-    console.log('Actions > Get Departures, Stop ', id)
-    State.searchExecuted = true
-    State.stop = await new API().getStop(id)
-    if (State.stop.found) {
-      State.departures = await new API().getDepartures(id)
-    }
   }
 
   /**
@@ -42,3 +30,17 @@ export class Actions {
     Components.BusDepartures.render()
   }
 }
+
+/**
+ * Fetches stop details and current departures.
+ * As this function is not exported, its entirely
+ * private and not accessible from outside this module.
+ */
+async function getDepartures (id) {
+  State.searchExecuted = true
+  State.stop = await new API().getStop(id)
+  if (State.stop.found) {
+    State.departures = await new API().getDepartures(id)
+  }
+}
+
