@@ -24,13 +24,6 @@ export class Component extends HTMLElement {
   }
 
   /**
-   * Returns component tag, as defined during component registration
-   */
-  tag () {
-    return Tags[this.constructor.name]
-  }
-
-  /**
    * Returns component HTML representation, must be implemented in descendants
    */
   html () {
@@ -60,7 +53,7 @@ export class StyledComponent extends Component {
    * You can override that in descendants to provide another location
    */
   stylesheet () {
-    const tag = this.tag()
+    const tag = this.tagName.toLowerCase()
     const name = tag.replace('ba-', '')
     return `app/components/${name}/${name}.css`
   }
@@ -98,17 +91,10 @@ export const Components = {
 }
 
 /**
- * All known component tags
- */
-export const Tags = {
-}
-
-/**
  * Registers the specified component
  */
 export function register (tag, componentClass) {
   const { name } = componentClass
-  Tags[name] = tag
   customElements.define(tag, componentClass)
   console.log('Component registered', { tag, name })
 }
